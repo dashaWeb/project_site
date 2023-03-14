@@ -1,0 +1,23 @@
+.icon-header {
+    color: #fff;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-size: 22px;
+    font-family: "r-reg";
+    align-items: center;
+}
+.sprite-Chat-Icon1 {
+    width: 51px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-Login-icon1 {
+    width: 41px;
+    height: 25px;
+    background-position: -5px -45px;
+}
+.icon-header:hover {
+    text-decoration: none;
+}

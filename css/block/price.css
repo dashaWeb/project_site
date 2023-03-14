@@ -1,0 +1,119 @@
+.bg-price {
+    background: url(../../img/bg-setka.png) #075da2;
+    padding: 25px 0;
+}
+
+.header-2 {
+    filter: drop-shadow(4px 4px 7px rgba(2, 68, 121, .75));
+    position: relative;
+}
+
+.d7-heading-2 {
+    width: 0;
+    height: 0;
+    border-top: 17px solid #caddea;
+    border-right: 17px solid transparent;
+}
+
+.price-heading {
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.price-heading>span {
+    font-size: 22px;
+    font-family: "r-reg";
+    display: flex;
+    align-items: center;
+}
+
+.price-heading span strong {
+    color: #dd0000;
+    font-size: 50px;
+    font-family: "r-bold";
+    align-self: baseline;
+    margin-right: 15px;
+}
+
+.price-heading span .price-off {
+    font-size: 35px;
+    align-self: flex-end;
+
+}
+
+.d28 {
+    display: inline-block;
+    height: 8px;
+    width: 60px;
+    margin: 6px;
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+.d28:before,
+.d28:after {
+    content: "";
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    background: #075da2;
+}
+
+.d28:before {
+    left: 0;
+    transform: skew(0deg, 25deg);
+}
+
+.d28:after {
+    right: 0;
+    transform: skew(0deg, -25deg);
+}
+
+.block-price{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-price>div, .block-price>p{
+    width: 310px;
+}
+.block-price p{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "r-reg";
+    margin: 15px 0;
+}
+.block-price div.order p{
+    margin: 0;
+    font-size: 26px;
+    font-family: "r-reg";
+    text-transform: uppercase;
+}
+.block-price .order{
+    margin-top: 50px;
+}
+.form-control{
+    color: #075da2;
+}
+.block-price>p{
+    align-self: flex-end;
+    margin: 0;
+    /* text-align: justify; */
+    text-align-last: justify;
+    margin-bottom: 15px;
+}
+.block-price>p span{
+    font-size: 47.7px;
+    font-family: "r-reg";
+}
+.block-price>p i{
+    font-size: 26.83px;
+    font-style: normal;
+}

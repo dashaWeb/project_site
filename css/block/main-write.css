@@ -1,0 +1,134 @@
+.bg-write {
+    background: url(../../img/bg-setka.png) #f4f6fa no-repeat center;
+    background-position-y: -100px;
+    background-size: 100%;
+    padding: 40px 15px 45px;
+}
+
+.header-write {
+    margin-top: 0;
+}
+
+.text-write {
+    font-size: 18px;
+    font-family: "arial-narrow";
+    margin-bottom: 50px;
+}
+
+.sprite-chell-icon-1 {
+    width: 79px;
+    height: 61px;
+    background-position: -5px -80px;
+}
+
+.sprite-chell-icon-2 {
+    width: 73px;
+    height: 66px;
+    background-position: -5px -151px;
+}
+
+.sprite-chell-icon-3 {
+    width: 61px;
+    height: 63px;
+    background-position: -5px -227px;
+}
+
+.sprite-chell-icon-4 {
+    width: 44px;
+    height: 58px;
+    background-position: -5px -300px;
+}
+
+.circle {
+    background-color: #caddea;
+    border-radius: 50%;
+    width: 110px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bg-write .col-3 {
+    padding: 0;
+}
+
+.active-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 15px 15px 20px;
+}
+
+.active-block h4 {
+    height: 100px;
+    text-transform: uppercase;
+    color: #1b7fd0;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "r-reg";
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.active-block p,
+.active-block ul {
+    font-size: 16px;
+    font-family: "arial-narrow";
+    text-align: justify;
+}
+
+.active-block ul {
+    list-style-position: inside;
+}
+
+.active-block a {
+    background-color: #075da2;
+    color: #fff;
+    font-size: 16px;
+    font-family: "r-reg";
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    margin-top: 30px;
+}
+/*hover block*/
+.active-block{
+    background-color: rgba(255,255,255,0);
+}
+.d7-active-block{
+    width: 0;
+    height: 0;
+    border-top: 30px solid rgba(255,255,255,0);
+    border-right: 40px solid transparent;
+}
+.bg-write .col-3:hover{
+    filter: drop-shadow(4px 4px 7px rgba(155,182,190,.75));
+    cursor: pointer;
+}
+.bg-write .col-3:hover .active-block{
+    background-color: rgba(255,255,255,1);
+
+}
+.bg-write .col-3:hover .d7-active-block{
+    border-top: 30px solid rgba(255,255,255,1);
+}
+.bg-write .col-3:hover .circle{
+    background-color: #075da2;
+}
+.bg-write .col-3:hover .sprite-chell-icon-1{
+    background-position: -5px -368px;
+}
+.bg-write .col-3:hover .sprite-chell-icon-2{
+    background-position: -5px -439px;
+}
+.bg-write .col-3:hover .sprite-chell-icon-3{
+    background-position: -5px -515px;
+}
+.bg-write .col-3:hover .sprite-chell-icon-4{
+    background-position: -5px -588px;
+}

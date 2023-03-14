@@ -1,0 +1,32 @@
+.bg-paper{
+    background: url(../../img/bg-setka-2.png) #1b7fd0 no-repeat;
+    background-size: cover;
+    border-top: solid #1b7fd0 1px;
+}
+.bg-paper p{
+    font-size: 24px;
+    color:#fff;
+    font-family: "arial-narrow";
+    text-align: center;
+    margin-bottom: 50px;
+}
+.bg-paper .col-3 p{
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom: solid 2px #fff;
+    padding-bottom: 10px;
+}
+.bg-paper .col-3 span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:'r-bold';
+    color: #1b7fd0;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+/*styles*/
+.bg-top-header {
+    background: url(../../../img/bg-setka.png) #013056;
+    padding-top: 1.05%;
+    padding-bottom: 1.05%;
+    color: #caddea;
+    font-family: "r-thin";
+    font-size: 20px;
+}
+
+.bg-top-header .row {
+    align-items: center;
+}
+
+.bg-top-header span {
+    font-family: "r-reg";
+}
+
+.bg-top-header a:nth-of-type(2) {
+    padding: 0;
+}
+
+.bg-top-header .sprite {
+    margin-left: 12px;
+}

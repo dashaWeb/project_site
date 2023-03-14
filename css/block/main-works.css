@@ -1,0 +1,133 @@
+.bg-works {
+    background: url(../../img/bg-setka-works.png) #f4f6fa no-repeat center;
+    background-position-y: bottom;
+    background-size: 100%;
+    border-top: solid 1px #f4f6fa;
+}
+
+
+.sprite-works-icon-1 {
+    width: 76px;
+    height: 67px;
+    background-position: -5px -656px;
+}
+
+.sprite-works-icon-2 {
+    width: 77px;
+    height: 71px;
+    background-position: -5px -733px;
+}
+
+.sprite-works-icon-3 {
+    width: 77px;
+    height: 45px;
+    background-position: -5px -814px;
+}
+
+.sprite-works-icon-4 {
+    width: 70px;
+    height: 64px;
+    background-position: -5px -869px;
+}
+
+.sprite-works-icon-5 {
+    width: 61px;
+    height: 70px;
+    background-position: -5px -943px;
+}
+
+.sprite-works-icon-6 {
+    width: 68px;
+    height: 70px;
+    background-position: -5px -1023px;
+}
+
+.tab {
+    list-style-type: none;
+    padding-right: 0;
+}
+
+.tablinks {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #caddea;
+    cursor: pointer;
+    position: relative;
+}
+
+.tablinks span {
+    color: #caddea;
+    font-size: 60px;
+    line-height: 51.82px;
+    font-family: "r-bold";
+    margin: 0 40px;
+}
+
+.tablinks h4 {
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "r-bold";
+}
+.active .d6 {
+    height: 15px;
+    width: 91px;
+    background: #075da2;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(90deg);
+    right: -53px;
+}
+.active .d6:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: -29px;
+    border-bottom: 30px solid #075da2;
+    border-left: 46px solid transparent;
+    border-right: 46px solid transparent;
+}
+
+.tablinks.active {
+    background-color: #075da2;
+    position: relative;
+}
+
+.tablinks.active h4 {
+    color: #fff;
+}
+
+.tabcontent {
+    background-color: #fff;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "arial-narrow";
+    filter: drop-shadow(4px 4px 7px rgba(167, 192, 200, .75));
+    display: none;
+    margin-left: 15px;
+}
+
+.tabcontent .circle {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.bg-works .order {
+    font-size: 26px;
+    color: #fff;
+    font-family: "r-reg";
+    padding: 15px;
+    width: 310px;
+    text-align: center;
+    margin: 45px auto 50px auto;
+}

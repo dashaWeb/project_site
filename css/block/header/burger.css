@@ -1,0 +1,50 @@
+/*burger-menu*/
+.burger-menu {
+    margin-bottom: 10px;
+}
+
+.burger-menu ul {
+    list-style-type: none;
+    text-align: right;
+}
+.burger-menu li{
+    padding: 0;
+
+}
+.burger-icon,
+.burger-icon::before,
+.burger-icon::after {
+    display: inline-block;
+    background-color: #fff;
+    width: 65px;
+    height: 5px;
+    position: relative;
+}
+
+.burger-icon::before,
+.burger-icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.burger-icon::before {
+    top: -14px;
+}
+
+.burger-icon::after {
+    bottom: -14px;
+}
+
+/*lg*/
+@media (min-width: 992px) {
+    .burger-menu ul {
+        text-align: left;
+        margin-top: -5px;
+    }
+    .burger-menu {
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+}

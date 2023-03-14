@@ -1,0 +1,99 @@
+/*
+    font-family: "arial-narrow";
+    font-family: "r-bold";
+    font-family: "r-reg";
+    font-family: "r-thin";
+*/
+.bg-nav {
+    background-color: #1b7fd0;
+    color: #fff;
+    font-family: "r-reg";
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+
+.bg-nav ul {
+    list-style-type: none;
+
+}
+
+.bg-nav li {
+    flex-grow: 1;
+    padding: 10px 0;
+    position: relative;
+}
+
+.bg-nav ul span {
+    position: absolute;
+}
+
+.bg-nav li:hover {
+    background-color: #caddea;
+}
+
+.bg-nav li:hover span {
+    opacity: 0;
+}
+
+.bg-nav li:hover a {
+    color: #1b7fd0;
+}
+
+.bg-nav ul a {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.bg-nav a:hover {
+    text-decoration: none;
+}
+
+.social {
+    justify-content: flex-end;
+}
+
+.social a:nth-of-type(2) {
+    margin-left: 70px;
+}
+@media (min-width: 768px) {
+    .bg-nav {
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .bg-nav ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 992px) {
+    .bg-nav {
+        padding-top: 1.05%;
+        padding-bottom: 1.05%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg-nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.bg-nav .sprite {
+    margin-left: 12px;
+}
+/*mobbile 320*/
+.bg-nav p{
+    color: #caddea;
+    font-family: "r-thin";
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.2px;
+}
+.bg-nav p span{
+    font-family: "r-reg";
+}

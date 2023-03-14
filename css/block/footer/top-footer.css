@@ -1,0 +1,27 @@
+.bg-top-footer{
+    background-color: #caddea;
+    padding: 15px;
+}
+.payment,.social-icon{
+    list-style-type: none;
+}
+.payment li{
+    margin-right: 15px;
+}
+.payment img{
+    height: 45px;
+}
+.social-icon{
+    align-items: center;
+}
+.social-icon a{
+    color: #1b7fd0;
+    font-size: 35px;
+    transition: color 500ms;
+}
+.social-icon a:hover{
+    color: #013056;
+}
+.social-icon li{
+    margin-left: 55px;
+}
